@@ -1,0 +1,17 @@
+.site,
+.site-footer,
+.grid-col-article {
+	max-width: 263px;
+}
+
+.mobile-drawer {
+	width: 325px;
+}
+
+.isActive > .mobile-drawer {
+	left: -20px;
+}
+
+.header-search-container .header-search {
+	width: 125px;
+}

@@ -1,0 +1,17 @@
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	/* Light */
+	@font-face {
+	    font-family: 'RobotoSlab';
+	    src: url('../fonts/RobotoSlab-Thin-webfont.svg') format('svg');
+	    font-weight: lighter;
+	    font-weight: 300;
+	}
+
+	/* Regular */
+	@font-face {
+	    font-family: 'RobotoSlab';
+	    src: url('../fonts/RobotoSlab-Regular-webfont.svg') format('svg');
+	    font-weight: normal;
+	    font-weight: 500;
+	}
+}

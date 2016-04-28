@@ -1,0 +1,15 @@
+.FAjQ.is-ordered {
+    counter-reset: FAjQ;
+}
+.FAjQ .FAjQ-question {
+}
+.FAjQ.is-ordered .FAjQ-question:before {
+    counter-increment: FAjQ;
+    content: counter( FAjQ ) ". ";
+}
+.FAjQ .FAjQ-back-to-top {
+    font-size: smaller;
+}
+.FAjQ .FAjQ-back-to-top:before {
+    content: '\2191\00a0';
+}
